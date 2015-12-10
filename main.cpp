@@ -207,6 +207,7 @@ void Tree::BALANCE(Node* x)
 			RIGHT_ROTATE(x->right);
 		LEFT_ROTATE(x);
 	}
+	HEIGHT_UP(x);
 }
 
 void Tree::AVL_INSERT(Node* x, Node* z)
